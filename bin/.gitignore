@@ -4,3 +4,6 @@
 /Spice.class
 /StarFleetCommand.class
 /StarShip.class
+/Starship.class
+/DockingBay$DockingQueue$Request.class
+/DockingBay$DockingQueue.class

@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 
-import StarFleetCommand.Spice;
 
-
-public class Cruiser extends StarShip
+public class Cruiser extends Starship
 	{
 		ArrayList<Spice> cargo;
 		int speed;
