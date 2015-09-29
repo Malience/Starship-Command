@@ -1,9 +1,9 @@
-import java.util.ArrayList;
+package com.base.game.ship;
 
 
 public class Cruiser extends Starship
 	{
-		ArrayList<Spice> cargo;
+		//ArrayList<Spice> cargo;
 		int speed;
 		int deuterium;
 		int gasMileage;

@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Vector;
 
+import com.base.game.ship.Cruiser;
+
 
 public class StarshipCommand 
 {

@@ -65,8 +65,7 @@ public class DockingBay
 			int i = 0;
 			for(Starship s : bay)
 			{
-				Cruiser c = (Cruiser) s;
-				if(c.distance() >= distance)
+				if(s.distance() >= distance)
 					i++;
 			}
 			return i;

@@ -15,6 +15,11 @@ public abstract class Starship
 		dockingSpeed = ds;
 	}
 	
+	public abstract int distance();
+//	{
+//		//return (int) (speed * (double) deuterium / (double) gasMileage);
+//	}
+	
 	public float dockSpeed()
 	{
 		return dockingSpeed * dockingMult;
