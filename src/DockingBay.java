@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Vector;
 
+import com.base.game.ship.Starship;
+
 public class DockingBay
 	{
 		ArrayList<Starship> bay;
@@ -95,7 +97,7 @@ public class DockingBay
 			
 			public void enqueue(Starship s, float baySpeed, float bayMult)
 			{
-				Request r = new Request(s, (s.dockingSpeed + baySpeed) * bayMult);
+				Request r = new Request(s, (s.dockSpeed() + baySpeed) * bayMult);
 				if(last != null)
 					last.setNext(r);
 				last = r;

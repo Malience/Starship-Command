@@ -1,9 +1,14 @@
 /Cruiser.class
+/DockingBay$DockingQueue$Request.class
+/DockingBay$DockingQueue.class
 /DockingBay.class
 /DockingFailed.class
 /Spice.class
 /StarFleetCommand.class
-/StarShip.class
 /Starship.class
-/DockingBay$DockingQueue$Request.class
-/DockingBay$DockingQueue.class
+/StarshipCommand.class
+/Starship$shipClass.class
+/Starship$ShipClass.class
+/Fitting.class
+/com.base.game.ship/
+/com/
